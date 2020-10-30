@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Database.Context;
+using Database.Entities;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -15,17 +17,18 @@ namespace WebApplication5.Controllers
     public class NameController : ControllerBase
     {
         private readonly IJwtAuthenticationManager jwtAuthenticationManager;
-
-        public NameController(IJwtAuthenticationManager jwtAuthenticationManager)
+        private readonly DatabaseContext DBContext;
+        public NameController(IJwtAuthenticationManager jwtAuthenticationManager, DatabaseContext DBContext)
         {
             this.jwtAuthenticationManager = jwtAuthenticationManager;
+            this.DBContext = DBContext;
         }
 
         // GET: api/<NameController>
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IEnumerable<Login> Get()
         {
-            return new string[] { "value1", "value2" };
+            return DBContext.Login.ToList();
         }
 
         // GET api/<NameController>/5

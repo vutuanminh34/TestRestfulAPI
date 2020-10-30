@@ -3554,19 +3554,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Minh\\.nuget\\packages\\": {}
+    "C:\\Users\\MinhVT\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Minh\\Downloads\\C#\\WebApplication4\\WebApplication4\\WebApplication4.csproj",
+      "projectUniqueName": "C:\\Users\\MinhVT\\Desktop\\New folder (6)\\TestRestfulAPI\\WebApplication4\\WebApplication4\\WebApplication4.csproj",
       "projectName": "WebApplication4",
-      "projectPath": "C:\\Users\\Minh\\Downloads\\C#\\WebApplication4\\WebApplication4\\WebApplication4.csproj",
-      "packagesPath": "C:\\Users\\Minh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Minh\\Downloads\\C#\\WebApplication4\\WebApplication4\\obj\\",
+      "projectPath": "C:\\Users\\MinhVT\\Desktop\\New folder (6)\\TestRestfulAPI\\WebApplication4\\WebApplication4\\WebApplication4.csproj",
+      "packagesPath": "C:\\Users\\MinhVT\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\MinhVT\\Desktop\\New folder (6)\\TestRestfulAPI\\WebApplication4\\WebApplication4\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Minh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\MinhVT\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
